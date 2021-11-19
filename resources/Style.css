@@ -1,0 +1,128 @@
+html {
+    background-color: #000000;
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    display: block;
+}
+/*navigation styles*/
+nav {
+    height: 3.1rem;   
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    border-bottom: 0.045rem solid seashell;
+}
+.logo-image{
+  height: 2.27rem;
+  padding-left: 0.45rem;
+  padding-top: 0.2rem; 
+}
+.nav-a {
+    float: right;
+    padding: 0.8rem;
+}
+.nav-link {
+    padding-left: 1rem;
+    color: seashell;
+    font-size: 1rem;
+}
+.nav-space {
+    height: 3.2rem;
+}
+/*page header styles*/
+.page-head {
+    display: flex;
+    background-image: url('./img-mission-background.webp');
+    background-position: center;
+    height: 34.81rem;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    width: 54.54rem;
+    margin: 0 auto;
+}
+.mission-text {
+    background-color: #000000;
+    width: 100%;
+    text-align: center;
+}
+/*Monthy picks*/
+.monthly-picks {
+    width: 45.45rem;
+    margin: 0 auto;
+}
+.picks-head {
+    text-align: center;
+}
+.name-of-monthly-picks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.name-of-monthly-picks img{
+    height: 9.09rem;
+    width: 13.64rem;
+    margin-bottom: 0;
+    padding-left: 1.5rem;
+}
+.name-of-monthly-picks h4{
+    text-align: center;
+    margin-top: 0.45rem;
+}
+/*Location*/
+.location {
+    text-align: center;
+    background-image: url('./img-locations-background.webp');
+    height: 22.73rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 54.54rem;
+    margin: 0 auto;
+}
+#location-head {
+    padding-top: 2rem;
+    margin-bottom: 0.68rem;
+}
+.location-flex {
+    display: flex;
+    justify-content: center;
+
+}
+.location-flex div{
+    background-color: black;
+    width: 13.64rem;
+    margin-left: 1.82rem;
+}
+.location-text {
+    padding-bottom: 1rem;
+}
+/*contact info*/
+.contact-info {
+    text-align: center;
+    height: 9.1rem;
+}
+#company-name-end {
+    margin-bottom: 4rem;
+}
+/*footer*/
+.copyright {
+    margin-left: 0.91rem;
+    margin-top: 4rem;
+}
+/*@media operators*/
+@media only screen and (max-width: 600px) and (min-width: 365px){
+    html {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 365px){
+    html {
+        font-size: 12px;
+    }
+    .nav-link {
+        color: rgb(0, 0, 0);
+    }
+}
